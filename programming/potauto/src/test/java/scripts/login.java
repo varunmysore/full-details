@@ -1,0 +1,14 @@
+package scripts;
+
+import org.testng.annotations.Test;
+
+import generic.Basetest;
+
+public class login extends Basetest {
+	@Test
+	public void loginHomepage() throws Exception {
+		System.out.println("test");
+		Thread.sleep(2000);
+	}
+
+}

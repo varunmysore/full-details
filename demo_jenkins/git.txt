@@ -1,0 +1,18 @@
+open cmd in localrepsitory
+---------------------------
+git  init
+git config --global user.name "varun"
+git config --global user.email "varun@gmail.com"
+
+git clone https://github.com/varunmysore/GitHub-repository.git
+   (copies the content in github to local , creates githubrepository in local)
+cd GitHub-Repository
+   (moves insise github repository)
+
+copy eclipse files in github repository
+----------------------------------------
+git add *
+git commit -m "first commit"
+git remote add origin https://github.com/varunmysore/GitHub-repository.git
+    (checks connection between github and local / remote and origin)
+git push origin main

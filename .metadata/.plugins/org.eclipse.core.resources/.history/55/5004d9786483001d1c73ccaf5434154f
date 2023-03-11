@@ -1,0 +1,19 @@
+package practice_POM_scripts;
+
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class p2 {
+public static void main(String[] args) {
+	
+	System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
+	//launches the chrome browser
+	ChromeDriver driver =new ChromeDriver();
+	//driver.manage().window().maximize();
+	driver.get("https://www.facebook.com/");
+//new Dimension(width, height);
+	int x = driver.manage().window().getPosition().getX();
+	int y = driver.manage().window().getPosition().getY();
+	System.out.println(x+","+y);
+}
+}

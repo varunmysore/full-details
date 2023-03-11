@@ -1,0 +1,26 @@
+package scripts;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class practice {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.get("https://potauto.in/");
+		WebElement elem = driver.findElement(By.xpath("(//a[contains(text(),'Products')])[2]"));
+		Actions a = new Actions(driver);
+		a.moveToElement(elem).perform();
+		WebElement elem2=driver.findElement(By.xpath("(//a[contains(text(),'EARTH MOVERS')])[2]"));
+		a.moveToElement(elem2).click().perform();
+		driver.findElement(By.linkText("Enquire Now")).click();
+	}
+}

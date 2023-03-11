@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47881" started-at="2023-02-13T13:22:26 IST" finished-at="2023-02-13T13:23:13 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47881" started-at="2023-02-13T13:22:26 IST" finished-at="2023-02-13T13:23:13 IST">
+      <class name="scripts.p2">
+        <test-method status="PASS" signature="setPath()[pri:0, instance:scripts.p2@704d6e83]" name="setPath" is-config="true" duration-ms="1" started-at="2023-02-13T13:22:48 IST" finished-at="2023-02-13T13:22:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPath -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:scripts.p2@704d6e83]" name="launchBrowser" is-config="true" duration-ms="10882" started-at="2023-02-13T13:22:49 IST" finished-at="2023-02-13T13:23:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="addUserScript(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scripts.p2@704d6e83]" name="addUserScript" duration-ms="12325" started-at="2023-02-13T13:23:00 IST" data-provider="createUserData" finished-at="2023-02-13T13:23:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abhi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abhid@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserScript -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:scripts.p2@704d6e83]" name="closeBrowser" is-config="true" duration-ms="898" started-at="2023-02-13T13:23:13 IST" finished-at="2023-02-13T13:23:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- scripts.p2 -->
+      <class name="scripts.p1">
+        <test-method status="PASS" signature="setPath()[pri:0, instance:scripts.p1@544a2ea6]" name="setPath" is-config="true" duration-ms="12" started-at="2023-02-13T13:22:26 IST" finished-at="2023-02-13T13:22:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPath -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:scripts.p1@544a2ea6]" name="launchBrowser" is-config="true" duration-ms="14765" started-at="2023-02-13T13:22:26 IST" finished-at="2023-02-13T13:22:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="actiLoginScript()[pri:0, instance:scripts.p1@544a2ea6]" name="actiLoginScript" duration-ms="6634" started-at="2023-02-13T13:22:40 IST" finished-at="2023-02-13T13:22:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actiLoginScript -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:scripts.p1@544a2ea6]" name="closeBrowser" is-config="true" duration-ms="811" started-at="2023-02-13T13:22:47 IST" finished-at="2023-02-13T13:22:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:scripts.p1@544a2ea6]" name="killDriver" is-config="true" duration-ms="18" started-at="2023-02-13T13:23:13 IST" finished-at="2023-02-13T13:23:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+      </class> <!-- scripts.p1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

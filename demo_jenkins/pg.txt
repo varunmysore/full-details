@@ -1,0 +1,8 @@
+PG manager application
+----------------------
+1.Get started
+2.enter phone number/emailId
+3.OTP process
+4.select city
+5.enter personal details(get notification on watsapp)
+6.video call visit

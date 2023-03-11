@@ -1,0 +1,14 @@
+package pages;
+
+import org.testng.annotations.Test;
+
+import generic.Basetest;
+
+public class HomePage extends  Basetest{
+@Test
+public void loginHomepage() throws Exception {
+	driver.get(p.getProperty("url"));
+	Thread.sleep(2000);
+}
+
+}

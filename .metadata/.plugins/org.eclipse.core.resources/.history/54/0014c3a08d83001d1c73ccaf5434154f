@@ -1,0 +1,21 @@
+package practice_POM_scripts;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class p2 {
+public static void main(String[] args) {
+	
+	System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
+	//launches the chrome browser
+	ChromeDriver driver =new ChromeDriver();
+	//driver.manage().window().maximize();
+	driver.get("https://www.facebook.com/");
+	WebElement elemnt = driver.findElement(By.id("u_0_0_DI"));
+	String col = elemnt.getCssValue("color");
+	System.out.println(col);
+}
+}

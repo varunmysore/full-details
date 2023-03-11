@@ -1,0 +1,13 @@
+package pages;
+
+import org.testng.annotations.Test;
+
+import generic.Basetest;
+
+public class HomePage extends  Basetest{
+@Test
+public void loginHomepage() {
+	driver.get(p.getProperty("url"));
+}
+
+}

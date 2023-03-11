@@ -1,0 +1,21 @@
+package generic;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+public class ActionUtils {
+	public static void getData() {
+		try {
+			FileInputStream f = new FileInputStream("./data/datasheet.xlsm");
+			Workbook book = WorkbookFactory.create(f);
+		} catch (Exception e) {
+			
+			e.printStackTrace();
+		}
+		
+	}
+
+}

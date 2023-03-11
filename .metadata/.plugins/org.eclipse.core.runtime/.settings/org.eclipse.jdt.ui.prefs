@@ -1,0 +1,17 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
+content_assist_favorite_static_members=org.testng.Assert.*
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.CharSequence"><rhs name\="org.openqa.selenium.Keys"/></lhs><lhs name\="java.time.temporal.TemporalAmount"><rhs name\="java.time.Duration"/></lhs><lhs name\="POM_pages.actiTimeLogin_page"><rhs name\="POM_pages.actiTimeLogin_page"/></lhs><lhs name\="POM_pages.demoToursLogin_page"><rhs name\="POM_pages.demoToursLogin_page"/></lhs><lhs name\="POM_pages.demoToursRegister_page"><rhs name\="POM_pages.demoToursRegister_page"/></lhs><lhs name\="POM_pages.actiTimeUserList_page2"><rhs name\="POM_pages.actiTimeUserList_page2"/></lhs><lhs name\="POM_pages.actiTimeAddUser_page2"><rhs name\="POM_pages.actiTimeAddUser_page2"/></lhs><lhs name\="org.openqa.selenium.SearchContext"><rhs name\="org.openqa.selenium.edge.EdgeDriver"/><rhs name\="org.openqa.selenium.chrome.ChromeDriver"/><rhs name\="org.openqa.selenium.firefox.FirefoxDriver"/></lhs><lhs name\="org.openqa.selenium.WebDriver"><rhs name\="org.openqa.selenium.edge.EdgeDriver"/><rhs name\="org.openqa.selenium.chrome.ChromeDriver"/><rhs name\="org.openqa.selenium.firefox.FirefoxDriver"/></lhs><lhs name\="generic.actionUtil"><rhs name\="generic.actionUtil"/></lhs><lhs name\="java.util.Hashtable"><rhs name\="java.util.Properties"/></lhs><lhs name\="java.util.Map"><rhs name\="java.util.Properties"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.Properties"/></lhs><lhs name\="java.util.Dictionary"><rhs name\="java.util.Properties"/></lhs><lhs name\="java.util.Properties"><rhs name\="java.util.Properties"/></lhs><lhs name\="java.io.File"><rhs name\="java.io.File"/></lhs><lhs name\="pompages.login_page"><rhs name\="pompages.login_page"/></lhs><lhs name\="pages.A_LoginPage"><rhs name\="pages.A_LoginPage"/></lhs><lhs name\="pages.B_Dashboard"><rhs name\="pages.B_Dashboard"/></lhs><lhs name\="pages.C_PIM"><rhs name\="pages.C_PIM"/></lhs><lhs name\="pages.D_AddEmployee"><rhs name\="pages.D_AddEmployee"/></lhs><lhs name\="generic.ActionUtils"><rhs name\="generic.ActionUtils"/></lhs></history>
+content_assist_number_of_computers=19
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=14
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

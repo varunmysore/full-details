@@ -1,0 +1,20 @@
+1.nestaway
+2.zolo stays
+3.colive
+4.nobroker
+5.coho
+6.aarusha
+7.homigo
+
+---------------------------
+PG manager
+
+1.register
+2.signin
+3.add pg details 
+     pg name
+     type of pg(male or female)
+     address,landmark.
+4.facilities provide and rent details
+5.building details/ configure pg
+      flooors,rooms,beds
